@@ -1,0 +1,21 @@
+.testimonial-card {
+    max-width: 280px;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+    height: 350px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05); 
+    z-index: 1; 
+}
+
+.flex-grow {
+    flex-grow: 1; 
+}
