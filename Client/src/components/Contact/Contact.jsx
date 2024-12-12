@@ -31,9 +31,8 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-
+  
     try {
-      // Web3 Forms request
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -41,11 +40,11 @@ const Contact = () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "1c50fd16-3003-4d92-8523-c4972facb83b", 
+          access_key: process.env.REACT_APP_ACCESS_KEY, // .env से access_key पढ़ें
           ...formData,
         }),
       });
-
+  
       if (res.ok) {
         Swal.fire({
           icon: "success",
