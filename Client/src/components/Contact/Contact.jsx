@@ -84,7 +84,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 dark:bg-black py-12 dark:text-white duration-300">
+    <div className="bg-gray-100 dark:bg-black py-12 dark:text-gray-500 duration-300">
       <div className="px-4 lg:px-20">
         <div className="container flex flex-col min-h-[620px] mt-10 sm:mt-0">
           

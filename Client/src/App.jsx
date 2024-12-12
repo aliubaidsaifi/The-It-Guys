@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 // Component imports
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import BrandsLogo from "./components/BrandsLogo/BrandsLogo.jsx";
+import Clients from "./components/Clients/Clients.jsx";
 import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About"; 
 import Contact from "./components/Contact/Contact";
 import Careers from "./components/Careers/Careers.jsx";
+import ComingSoon from "./components/ComingSoon/ComingSoon.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -34,11 +35,13 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/projects" element={<BrandsLogo />} />
+          <Route path="/clients" element={<Clients />} />
           <Route path="/testimonials" element={<Testimonial />} />
           <Route path="/blogs" element={<BlogsComp />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/comingsoon" element={<ComingSoon />} />
+
         </Routes>
         <Footer />
       </div>

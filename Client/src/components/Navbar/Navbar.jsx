@@ -3,15 +3,15 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/Logo.png";
-import DarkMode from "./DarkMode";
+// import DarkMode from "./DarkMode";
 
 export const MenuLinks = [
   { id: 1, name: "About", link: "/about" },
   { id: 2, name: "Services", link: "/services" },
-  { id: 3, name: "Projects", link: "/projects" },
+  { id: 3, name: "Clients", link: "/clients" },
   { id: 4, name: "Testimonials", link: "/testimonials" },
   { id: 5, name: "Blogs", link: "/blogs" },
-  { id: 6, name: "Contact", link: "/contact" },
+
 ];
 
 const Navbar = () => {
@@ -49,13 +49,13 @@ const Navbar = () => {
                 <Link to="/contact">
                   <button className="primary-btn">Get in Touch</button>
                 </Link>
-                <DarkMode />
+                {/* <DarkMode /> */}
               </ul>
             </nav>
 
            
             <div className="flex items-center gap-4 md:hidden">
-              <DarkMode />
+              {/* <DarkMode /> */}
               {showMenu ? (
                 <HiMenuAlt1
                   onClick={toggleMenu}

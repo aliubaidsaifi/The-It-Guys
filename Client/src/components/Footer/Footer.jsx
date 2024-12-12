@@ -5,23 +5,23 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const FooterLinks = [
   { title: "About Us", link: "/about" },
   { title: "Services", link: "/services" },
-  { title: "Projects", link: "/projects" },
+  { title: "Clients", link: "/clients" },
   { title: "Careers", link: "/careers" },
 ];
 
 const HelpLinks = [
-  { title: "Customer Support", link: "/support" },
-  { title: "FAQs", link: "/faqs" },
-  { title: "Delivery Details", link: "/delivery-details" },
-  { title: "Terms & Conditions", link: "/terms" },
-  { title: "Privacy Policy", link: "/privacy-policy" },
+  { title: "Customer Support", link: "/comingsoon" },
+  { title: "FAQs", link: "/comingsoon" },
+  { title: "Delivery Details", link: "/comingsoon" },
+  { title: "Terms & Conditions", link: "/comingsoon" },
+  { title: "Privacy Policy", link: "/comingsoon" },
 ];
 
 const ResourcesLinks = [
-  { title: "Blog", link: "/blog" },
-  { title: "Case Studies", link: "/case-studies" },
-  { title: "Free Ebooks", link: "/ebooks" },
-  { title: "Webinars", link: "/webinars" },
+  { title: "Blog", link: "/blogs" },
+  { title: "Case Studies", link: "/comingsoon" },
+  { title: "Free Ebooks", link: "/comingsoon" },
+  { title: "Webinars", link: "/comingsoon" },
 ];
 
 const Footer = () => {

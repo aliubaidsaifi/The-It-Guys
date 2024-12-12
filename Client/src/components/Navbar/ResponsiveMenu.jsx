@@ -1,6 +1,6 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
 import { MenuLinks } from "./Navbar";
+import {Link} from 'react-router-dom'
 import logo from '../../assets/website/logo.png'
 
 const ResponsiveMenu = ({ showMenu }) => {
@@ -25,6 +25,9 @@ const ResponsiveMenu = ({ showMenu }) => {
                 </a>
               </li>
             ))}
+            <Link to="/contact">
+                  <button className="primary-btn">Get in Touch</button>
+                </Link>
           </ul>
         </nav>
       </div>

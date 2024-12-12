@@ -14,8 +14,8 @@ const BlogsData = [
     image: Img1,
     title: "Realtime analytics",
     description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
-    author: "Someone",
+      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
+    author: "Smith",
     date: "April 22, 2022",
   },
   {
@@ -24,7 +24,7 @@ const BlogsData = [
     title: "Understanding Market Trends",
     description:
       "Market trends can change rapidly. Keeping an eye on them can help businesses adapt and thrive. Here are some insights into the latest trends.",
-    author: "John Doe",
+    author: "John",
     date: "May 5, 2022",
   },
   {
@@ -33,7 +33,7 @@ const BlogsData = [
     title: "Effective Data Visualization",
     description:
       "Visualizing data helps in making complex information more understandable. Here are some best practices for effective data visualization.",
-    author: "Jane Smith",
+    author: "Alexender",
     date: "June 15, 2022",
   },
   {
@@ -42,7 +42,7 @@ const BlogsData = [
     title: "Boosting Team Collaboration",
     description:
       "Collaboration is key to a successful team. Here are some tools and techniques to enhance collaboration in your workplace.",
-    author: "Emily Johnson",
+    author: "Johnson",
     date: "July 20, 2022",
   },
   {
